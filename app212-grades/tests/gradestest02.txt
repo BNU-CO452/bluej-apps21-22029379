@@ -1,0 +1,81 @@
+Student NarinderKaur = new Student();
+Course Computing = new Course();
+Module CO452 = new Module("CO452", "Programming Concepts");
+Computing.addModule(CO452);
+NarinderKaur.enrol(Computing);
+Module CO456 = new Module("CO456", "web Development");
+Computing.addModule(CO456);
+Module CO450 = new Module("CO450", "Computer Architectures");
+Computing.addModule(CO450);
+Module CO454 = new Module("CO454", "Digital Technologies & Professional Practice");
+Computing.addModule(CO454);
+NarinderKaur.printCourse();
+ Student ID: 22029379, Narinder Kaur
+
+ Course BT1CTG1: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+ CO456: 	web Development	  15 credits
+ CO450: 	Computer Architectures	  15 credits
+ CO454: 	Digital Technologies & Professional Practice	  15 creditsNarinderKaur.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22029379, Narinder Kaur
+
+ Course BT1CTG1: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+ CO456: 	web Development	  15 credits
+ CO450: 	Computer Architectures	  15 credits
+ CO454: 	Digital Technologies & Professional Practice	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ Final Course Grade = F
+ModuleMark CO452Mark = new ModuleMark(CO452);
+CO452Mark.setMark(60);
+NarinderKaur.addMark(CO452Mark);
+ModuleMark CO456Mark = new ModuleMark(CO456);
+CO456Mark.setMark(78);
+NarinderKaur.addMark(CO456Mark);
+ModuleMark CO450Mark = new ModuleMark(CO450);
+CO450Mark.setMark(45);
+NarinderKaur.addMark(CO450Mark);
+ModuleMark CO454Mark = new ModuleMark(CO454);
+CO454Mark.setMark(55);
+NarinderKaur.addMark(CO454Mark);
+NarinderKaur.print();
+ Student ID: 22029379, Narinder Kaur
+NarinderKaur.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22029379, Narinder Kaur
+
+ Course BT1CTG1: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+ CO456: 	web Development	  15 credits
+ CO450: 	Computer Architectures	  15 credits
+ CO454: 	Digital Technologies & Professional Practice	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	60B
+
+ CO456: 	web Development	  15	78A
+
+ CO450: 	Computer Architectures	  15	45D
+
+ CO454: 	Digital Technologies & Professional Practice	  15	55C
+
+
+ Final Course Grade = C

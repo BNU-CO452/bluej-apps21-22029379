@@ -1,0 +1,43 @@
+Student NarinderKaur = new Student("Narinder Kaur", 22029379);
+NarinderKaur.print();
+ Student ID: 22029379, Narinder Kaur
+Course Computing = new Course("BT1CTG1", "Computing");
+NarinderKaur.enrol(Computing);
+NarinderKaur.printCourse();
+ Student ID: 22029379, Narinder Kaur
+
+ Course BT1CTG1: Computing
+
+Module CO452 = new Module("CO452", "Programming Concepts");
+Computing.addModule(CO452);
+Computing.print();
+
+ Course BT1CTG1: Computing
+
+Computing.printModules();
+
+Student Gurpreet = new Student("Gurpreet", 220293888);
+ModuleMark NarinderKaurCO452Mark = new ModuleMark(CO452);
+NarinderKaurCO452Mark.setMark(60);
+ModuleMark GurpreetCO452Mark = new ModuleMark(CO452);
+GurpreetCO452Mark.setMark(60);
+NarinderKaurCO452Mark.print();
+
+ CO452: 	Programming Concepts	  15	60NarinderKaur.addMark(NarinderKaurCO452Mark);
+NarinderKaur.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22029379, Narinder Kaur
+
+ Course BT1CTG1: Computing
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
