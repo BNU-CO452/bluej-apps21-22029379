@@ -5,6 +5,7 @@
  * the StockManager class is completed.
  * 
  * @author David J. Barnes and Michael Kölling.
+ * Narinder
  * @version 2016.02.29
  */
 public class StockDemo
