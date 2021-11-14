@@ -6,6 +6,7 @@
  * @author Michael Kölling and David Barnes
  * @modified by Derek Peacock and Nicholas Day
  * @version 2021:08:15
+ * modified by Narinder Kau
  */
 public class Student
 {
