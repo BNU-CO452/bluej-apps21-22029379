@@ -1,0 +1,26 @@
+Product AppleMacBookPro = new Product(101, "Apple Mac Book Pro");
+AppleMacBookPro.print();
+ ID 101: Apple Mac Book Pro stock level: 0
+StockList Narinderstocklist = new StockList();
+Narinderstocklist.add(AppleMacBookPro);
+AppleMacBookPro.decreaseQuantity(4);
+AppleMacBookPro.print();
+ ID 101: Apple Mac Book Pro stock level: 0
+AppleMacBookPro.increaseQuantity(2);
+AppleMacBookPro.print();
+ ID 101: Apple Mac Book Pro stock level: 2
+Narinderstocklist.add(AppleMacBookPro);
+Product SamsungGalaxyBook = new Product(102, "Samsung Galaxy Book");
+Narinderstocklist.add(SamsungGalaxyBook);
+Product MicrosoftSurfacelaptop4 = new Product(103, "Microsoft Surface laptop4");
+Narinderstocklist.add(MicrosoftSurfacelaptop4);
+Narinderstocklist.print();
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple Mac Book Pro stock level: 2
+ ID 101: Apple Mac Book Pro stock level: 2
+ ID 102: Samsung Galaxy Book stock level: 0
+ ID 103: Microsoft Surface laptop4 stock level: 0
+

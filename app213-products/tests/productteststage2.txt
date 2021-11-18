@@ -1,0 +1,135 @@
+StockList NarinderStocklist = new StockList();
+StockDemo NarinderstockDemo = new StockDemo();
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 0
+ ID 102: Samsung Galaxy Book stock level: 0
+ ID 103: Microsoft Surface laptop4 stock level: 0
+ ID 104: HP Spectre x360 stock level: 0
+ ID 105: Dell XPS 13 stock level: 0
+ ID 106: Razer Blade 14 stock level: 0
+ ID 107: LG Gram 17 stock level: 0
+ ID 108: Acer Swift 3 stock level: 0
+ ID 109: Lenovo ThinkPadX1 stock level: 0
+ ID 110: Google Pixelbook Go stock level: 0
+
+bought 4 of Apple MacBookPro
+bought 7 of Samsung Galaxy Book
+bought 25 of Microsoft Surface laptop4
+bought 30 of HP Spectre x360
+bought 37 of Dell XPS 13
+bought 16 of Razer Blade 14
+bought 6 of LG Gram 17
+bought 19 of Acer Swift 3
+bought 33 of Lenovo ThinkPadX1
+bought 9 of Google Pixelbook Go
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 4
+ ID 102: Samsung Galaxy Book stock level: 7
+ ID 103: Microsoft Surface laptop4 stock level: 25
+ ID 104: HP Spectre x360 stock level: 30
+ ID 105: Dell XPS 13 stock level: 37
+ ID 106: Razer Blade 14 stock level: 16
+ ID 107: LG Gram 17 stock level: 6
+ ID 108: Acer Swift 3 stock level: 19
+ ID 109: Lenovo ThinkPadX1 stock level: 33
+ ID 110: Google Pixelbook Go stock level: 9
+
+sold 2 of Apple MacBookPro
+sold 5 of Samsung Galaxy Book
+sold 20 of Microsoft Surface laptop4
+sold 21 of HP Spectre x360
+sold 30 of Dell XPS 13
+sold 10 of Razer Blade 14
+Can't sell10ofLG Gram 17because only have 6
+sold 7 of Acer Swift 3
+sold 15 of Lenovo ThinkPadX1
+sold 8 of Google Pixelbook Go
+Product doesn't exist
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 2
+ ID 102: Samsung Galaxy Book stock level: 2
+ ID 103: Microsoft Surface laptop4 stock level: 5
+ ID 104: HP Spectre x360 stock level: 9
+ ID 105: Dell XPS 13 stock level: 7
+ ID 106: Razer Blade 14 stock level: 6
+ ID 107: LG Gram 17 stock level: 6
+ ID 108: Acer Swift 3 stock level: 12
+ ID 109: Lenovo ThinkPadX1 stock level: 18
+ ID 110: Google Pixelbook Go stock level: 1
+
+NarinderstockDemo.runDemo();
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 2
+ ID 102: Samsung Galaxy Book stock level: 2
+ ID 103: Microsoft Surface laptop4 stock level: 5
+ ID 104: HP Spectre x360 stock level: 9
+ ID 105: Dell XPS 13 stock level: 7
+ ID 106: Razer Blade 14 stock level: 6
+ ID 107: LG Gram 17 stock level: 6
+ ID 108: Acer Swift 3 stock level: 12
+ ID 109: Lenovo ThinkPadX1 stock level: 18
+ ID 110: Google Pixelbook Go stock level: 1
+
+bought 4 of Apple MacBookPro
+bought 7 of Samsung Galaxy Book
+bought 25 of Microsoft Surface laptop4
+bought 30 of HP Spectre x360
+bought 37 of Dell XPS 13
+bought 16 of Razer Blade 14
+bought 6 of LG Gram 17
+bought 19 of Acer Swift 3
+bought 33 of Lenovo ThinkPadX1
+bought 9 of Google Pixelbook Go
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 6
+ ID 102: Samsung Galaxy Book stock level: 9
+ ID 103: Microsoft Surface laptop4 stock level: 30
+ ID 104: HP Spectre x360 stock level: 39
+ ID 105: Dell XPS 13 stock level: 44
+ ID 106: Razer Blade 14 stock level: 22
+ ID 107: LG Gram 17 stock level: 12
+ ID 108: Acer Swift 3 stock level: 31
+ ID 109: Lenovo ThinkPadX1 stock level: 51
+ ID 110: Google Pixelbook Go stock level: 10
+
+sold 2 of Apple MacBookPro
+sold 5 of Samsung Galaxy Book
+sold 20 of Microsoft Surface laptop4
+sold 21 of HP Spectre x360
+sold 30 of Dell XPS 13
+sold 10 of Razer Blade 14
+sold 10 of LG Gram 17
+sold 7 of Acer Swift 3
+sold 15 of Lenovo ThinkPadX1
+sold 8 of Google Pixelbook Go
+Product doesn't exist
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 4
+ ID 102: Samsung Galaxy Book stock level: 4
+ ID 103: Microsoft Surface laptop4 stock level: 10
+ ID 104: HP Spectre x360 stock level: 18
+ ID 105: Dell XPS 13 stock level: 14
+ ID 106: Razer Blade 14 stock level: 12
+ ID 107: LG Gram 17 stock level: 2
+ ID 108: Acer Swift 3 stock level: 24
+ ID 109: Lenovo ThinkPadX1 stock level: 36
+ ID 110: Google Pixelbook Go stock level: 2
+
