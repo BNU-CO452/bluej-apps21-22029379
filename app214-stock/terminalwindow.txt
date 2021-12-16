@@ -1,0 +1,199 @@
+
+Selling Quanitities of Stock
+
+all stock is sold!!
+Selling2 101
+Selling Quanitities of Stock
+
+Selling1 102
+Selling Quanitities of Stock
+
+Selling none of 103
+Selling Quanitities of Stock
+
+all stock is sold!!
+Selling2 104
+Selling Quanitities of Stock
+
+all stock is sold!!
+Selling3 105
+Selling Quanitities of Stock
+
+all stock is sold!!
+Selling5 106
+Selling Quanitities of Stock
+
+all stock is sold!!
+Selling2 107
+Selling Quanitities of Stock
+
+Selling6 108
+Selling Quanitities of Stock
+
+Selling5 109
+Selling Quanitities of Stock
+
+all stock is sold!!
+Selling2 110
+
+ Narinder's Stock List
+ ====================
+
+ ID 101: Apple MacBookPro stock level: 0
+ ID 102: Samsung Galaxy Book stock level: 7
+ ID 103: Microsoft Surface laptop4 stock level: 0
+ ID 104: HP Spectre x360 stock level: 0
+ ID 105: Dell XPS 13 stock level: 0
+ ID 106: Razer Blade 14 stock level: 0
+ ID 107: LG Gram 17 stock level: 0
+ ID 108: Acer Swift 3 stock level: 2
+ ID 109: Lenovo ThinkPadX1 stock level: 4
+ ID 110: Google Pixelbook Go stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID number:
+101
+Please enter the name of the product:
+Your input is blank!
+
+Please enter the name of the product:Apple MacBookPro
+Product101,Apple MacBookProhas been added
+You have added a new Mobile with the ID of 101 and the name of Apple MacBookPro
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Please enter a product ID number: 
+104
+Product104,HP Spectre x360has been remove
+You have remove a new Mobile with the ID of 104 and the name of HP Spectre x360
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > buy
+How many do you want to buy?: 
+11
+Please enter ID of the product you want to search for: 
+106
+Bought11 ID 106: Razer Blade 14 stock level: 11
+Product106,Razer Blade 14has been buy
+You have purchased 11 of this product ID: 106 Name: Razer Blade 14
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Please enter the amount you wish to sell: 
+22
+Please enter a product ID number of the item you wish to sell. 
+107
+Selling Quanitities of Stock
+
+Selling none of 107
+Product107,LG Gram 17has been sell
+You have sold 22 numbers of the follwing product ID: 107 Name: LG Gram 17
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > search Id
+Please enter the ID number of the item you are looking for: 
+110
+Product110,Google Pixelbook Gohas been search
+You have searched for ID 110. This Mobile Phone is:  Google Pixelbook Go
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+********************************
+  App21-04: Stock Application 
+      by Narinder Kaur
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Search for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
