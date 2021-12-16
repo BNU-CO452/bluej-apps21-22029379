@@ -6,7 +6,11 @@
  * 
  * @author David J. Barnes and Michael Kölling.
  * Narinder Kaur
+<<<<<<< HEAD
  * @version 17/11/2021
+=======
+ * @version 2021.11.18
+>>>>>>> 672c091536879b35125b25678207f07456828b31
  */
 public class StockDemo
 {
@@ -45,7 +49,7 @@ public class StockDemo
      * product by various amounts. Make sure all the requirements
      * have been demonstrated.
      */
-    public void runDemo()
+public void runDemo()
     {
         // Show details of all of the products before delivery.
         
@@ -70,7 +74,10 @@ public class StockDemo
         stock.buyProduct(108,19);
         stock.buyProduct(109,33);
         stock.buyProduct(110,9);
+<<<<<<< HEAD
         
+=======
+>>>>>>> 672c091536879b35125b25678207f07456828b31
     }
 
     private void sellProducts()

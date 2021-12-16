@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 672c091536879b35125b25678207f07456828b31
 StockList NarinderStocklist = new StockList();
 StockDemo NarinderstockDemo = new StockDemo();
 
@@ -135,6 +138,7 @@ Product doesn't exist
  ID 109: Lenovo ThinkPadX1 stock level: 36
  ID 110: Google Pixelbook Go stock level: 2
 
+<<<<<<< HEAD
 =======
 StockList NarinderStocklist = new StockList();
 StockDemo NarinderstockDemo = new StockDemo();
@@ -409,3 +413,5 @@ Product doesn't exist
  ID 110: Google Pixelbook Go stock level: 2
 
 >>>>>>> 887dbd252b55545f71ae35a06f463ccf4432b551
+=======
+>>>>>>> 672c091536879b35125b25678207f07456828b31

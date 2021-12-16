@@ -4,8 +4,13 @@ import java.util.ArrayList;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
+<<<<<<< HEAD
  * @author Narinder Kaur
  * @version 17/11/2021
+=======
+ * @author Narinder Kaur 
+ * @version 18/11/2021
+>>>>>>> 672c091536879b35125b25678207f07456828b31
  */
 public class StockList
 {
@@ -49,6 +54,12 @@ public class StockList
      Product product = findProduct(productID);
     if(product != null)
     {
+<<<<<<< HEAD
+=======
+        Product product = findProduct(productID);
+    if(product != null)
+    {
+>>>>>>> 672c091536879b35125b25678207f07456828b31
         if(product.getQuantity() < 1000)
         {
              product.increaseQuantity(amount);
@@ -59,10 +70,17 @@ public class StockList
             System.out.println("Not enough shelf space for " + product.getName()+ 
                                       ".Please sell the exisiting stock" );
         }
+<<<<<<< HEAD
     }
     else
             System.out.println("Product doesn't exist");
             
+=======
+    
+    }
+     else
+            System.out.println("Product doesn't exist");
+>>>>>>> 672c091536879b35125b25678207f07456828b31
     }
     
     /**
@@ -76,7 +94,11 @@ public class StockList
             if(product.getID() == productID)
             return product;
         }
+<<<<<<< HEAD
              return null;
+=======
+        return null;
+>>>>>>> 672c091536879b35125b25678207f07456828b31
     }
    /**
      * Sell one of the given product.
@@ -87,25 +109,43 @@ public void sellProduct(int productID)
 { 
     sellProduct(productID, 1);
 }
+<<<<<<< HEAD
 
  /**
+=======
+    /**
+>>>>>>> 672c091536879b35125b25678207f07456828b31
      * Sell many of the given product.
      * Show the before and after status of the product.
      * @param id The ID of the product being sold.
      */
+<<<<<<< HEAD
 public void sellProduct(int productID, int amount)
 {
 
+=======
+    public void sellProduct(int productID, int amount)
+    {
+>>>>>>> 672c091536879b35125b25678207f07456828b31
         Product product = findProduct(productID);
         if(product != null) 
         {
             if(product.getQuantity() > 0 && product.getQuantity() >= amount)
+<<<<<<< HEAD
             {
                 product.decreaseQuantity(amount);
                 System.out.println("sold " + amount +" of " + product.getName());
             }
             else if(product.getQuantity() < amount)
             {
+=======
+            {
+                product.decreaseQuantity(amount);
+                System.out.println("sold " + amount +" of " + product.getName());
+            }
+            else if(product.getQuantity() < amount)
+            {
+>>>>>>> 672c091536879b35125b25678207f07456828b31
                 System.out.println("Can't sell" + amount + "of" + product.getName()+
                                       "because only have " + product.getQuantity());
             
@@ -119,8 +159,13 @@ public void sellProduct(int productID, int amount)
         else
         {
             System.out.println("Product doesn't exist");
+<<<<<<< HEAD
         }
     }
+=======
+    }
+}
+>>>>>>> 672c091536879b35125b25678207f07456828b31
 
     
     /**
