@@ -7,7 +7,8 @@ import java.util.Scanner;
  * @author     Michael Kölling and David J. Barnes
  * @version    0.1 (2016.02.29)
  * 
- * Modified by Derek Peacock 13/12/2020
+ * Modified by Narinder Kaur 
+ * 15/12/2020
  */
 public class InputReader
 {
